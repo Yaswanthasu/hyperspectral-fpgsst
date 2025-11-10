@@ -69,14 +69,14 @@ results/individual_results/ (per-dataset accuracy plots)
 
 results/confusion_matrix_*.png
 
-📊 Example Results
+## 📊 Example Results
 | Dataset         | OA (%) | AA (%) | Kappa  |
 | --------------- | ------ | ------ | ------ |
 | PaviaU          | 94.26  | 95.44  | 0.9251 |
 | Loukia (HyRANK) | 41.20  | 20.03  | 0.2145 |
 | WHU-Hi LongKou  | 33.94  | 22.13  | 0.2523 |
 
-🧩 Model Architecture
+## 🧩 Model Architecture
 
 <p align="center">
   <img src="assets/fpgsst_architecture.png" width="700">
@@ -93,7 +93,7 @@ Dual-branch attention (Spectral & Spatial)
 
 Fusion Transformer for joint feature learning
 
-##🧠 Citation
+## 🧠 Citation
 
 If you use this work, please cite:
 @misc{yaswanthasu2025fpgsst,
