@@ -1,0 +1,26 @@
+# Ignore datasets
+datasets/
+!datasets/**/*.py
+
+# Ignore trained weights & logs
+experiments/
+results/
+nohup.out
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large local files
+*.npz
+*.mat
+*.pth
+*.pt
+*.log
+*.csv
+
+# Ignore editor configs
+.vscode/
+.idea/
