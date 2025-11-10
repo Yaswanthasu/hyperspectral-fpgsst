@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspace/cs23b1009_ml/hyperspectral-project/train.py", line 185, in <module>
+    main()
+  File "/workspace/cs23b1009_ml/hyperspectral-project/train.py", line 142, in main
+    assert os.path.exists(npz_path), f"npz not found: {npz_path}"
+AssertionError: npz not found: /workspace/cs23b1009_ml/hyperspectral-project/datasets/Loukia/Loukia_preprocessed.npz

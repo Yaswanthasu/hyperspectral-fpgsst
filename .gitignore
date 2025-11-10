@@ -3,8 +3,6 @@ datasets/
 !datasets/**/*.py
 
 # Ignore trained weights & logs
-experiments/
-results/
 nohup.out
 
 # Ignore Python cache
@@ -14,12 +12,6 @@ __pycache__/
 *.pyd
 
 # Ignore large local files
-*.npz
-*.mat
-*.pth
-*.pt
-*.log
-*.csv
 
 # Ignore editor configs
 .vscode/
