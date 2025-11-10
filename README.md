@@ -77,7 +77,11 @@ results/confusion_matrix_*.png
 | WHU-Hi LongKou  | 33.94  | 22.13  | 0.2523 |
 
 🧩 Model Architecture
-<p align="center"> <img src="https://github.com/Yaswanthasu/hyperspectral-fpgsst/assets/transformer-architecture-diagram.png" width="700"> </p>
+
+<p align="center">
+  <img src="assets/fpgsst_architecture.png" width="700">
+</p>
+
 
 FPGSST Architecture:
 
@@ -98,8 +102,3 @@ If you use this work, please cite:
   publisher={GitHub},
   journal={https://github.com/Yaswanthasu/hyperspectral-fpgsst}
 }
-Here’s the architecture diagram for the Frequency-Prompt Guided Spectral–Spatial Transformer (FPGSST):
-<p align="center">
-  <img src="assets/fpgsst_architecture.png" width="700">
-</p>
-
