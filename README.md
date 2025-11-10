@@ -93,7 +93,8 @@ Dual-branch attention (Spectral & Spatial)
 
 Fusion Transformer for joint feature learning
 
-🧠 Citation
+##🧠 Citation
+
 If you use this work, please cite:
 @misc{yaswanthasu2025fpgsst,
   title={Frequency-Prompt Guided Spectral–Spatial Transformer for Hyperspectral Image Classification},
