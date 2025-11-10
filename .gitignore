@@ -1,18 +1,24 @@
-# Ignore datasets
-datasets/
-!datasets/**/*.py
-
-# Ignore trained weights & logs
+# Ignore large or temporary files
+*.pth
+*.npz
+*.mat
+*.tfevents.*
+*.zip
+*.tar
+*.gz
 nohup.out
 
-# Ignore Python cache
+# Ignore caches
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
-# Ignore large local files
+# Keep only summary outputs, not full experiments
+experiments/
+!experiments/*/FPGSST_best.pth
+!experiments/*/train.log
 
-# Ignore editor configs
-.vscode/
-.idea/
+# Keep final result plots
+!results/**/*.png
+!results/**/*.pdf
+!results/**/*.csv
