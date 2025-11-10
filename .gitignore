@@ -1,24 +1,20 @@
-# Ignore large or temporary files
+# Ignore heavy binary files
 *.pth
 *.npz
 *.mat
 *.tfevents.*
 *.zip
-*.tar
-*.gz
 nohup.out
 
-# Ignore caches
+# Cache and temporary
 __pycache__/
 *.pyc
 *.pyo
 
-# Keep only summary outputs, not full experiments
+# Ignore training outputs
 experiments/
-!experiments/*/FPGSST_best.pth
-!experiments/*/train.log
+datasets/
 
-# Keep final result plots
-!results/**/*.png
-!results/**/*.pdf
-!results/**/*.csv
+# Keep results and prediction maps
+!results/**
+!pred_map_*.mat
